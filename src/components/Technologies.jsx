@@ -20,18 +20,20 @@ const Technologies = () => {
 
   return (
     <section id="technologies" className="pb-24">
-      <h2 className="my-20 text-center text-4xl font-light tracking-tight">
-        Technologies
-      </h2>
-      <div className="flex flex-wrap items-center justify-center gap-6">
-        {techStack.map((tech, index) => (
-          <div
-            key={index}
-            className="rounded-2xl border-4 border-neutral-800 p-4 transition-all hover:bg-neutral-900"
-          >
-            <div className="text-7xl lg:text-8xl">{tech.icon}</div>
-          </div>
-        ))}
+      <div className="mx-auto max-w-7xl rounded-3xl border border-stone-800 bg-stone-950/80 p-8 shadow-xl shadow-black/20">
+        <h2 className="mb-8 text-center text-4xl font-light tracking-tight">
+          Technologies
+        </h2>
+        <div className="flex flex-wrap items-center justify-center gap-6">
+          {techStack.map((tech, index) => (
+            <div
+              key={index}
+              className="rounded-2xl border-4 border-neutral-800 p-4 transition-all hover:bg-neutral-900"
+            >
+              <div className="text-7xl lg:text-8xl">{tech.icon}</div>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

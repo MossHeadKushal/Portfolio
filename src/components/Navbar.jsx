@@ -5,7 +5,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="flex flex-col gap-6 py-6 md:flex-row md:items-center md:justify-between">
+    <nav className="max-w-7xl mx-auto flex flex-col gap-6 py-6 md:flex-row md:items-center md:justify-between">
       <div className="flex items-center gap-4">
         <a href="#home" aria-label="Home">
           <img src={logo} className="mx-2" width={80} height={60} alt="Logo" />
