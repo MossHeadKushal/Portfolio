@@ -1,6 +1,7 @@
 import profilePic from "../assets/kuusshh.jpg";
 import { HERO_CONTENT } from "../constants";
 import React from "react";
+import resume from "../assets/resume.pdf";
 
 const Hero = () => {
   return (

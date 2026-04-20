@@ -5,7 +5,9 @@ import chatAppImage from "../assets/projects/chatapp.png";
 
 export const HERO_CONTENT = `I am a passionate Frontend Developer with expertise in React and Next.js. I create dynamic and responsive web applications that provide seamless user experiences. With a strong foundation in JavaScript and a keen eye for design, I am dedicated to building high-quality, efficient, and visually appealing websites. Let's work together to bring your ideas to life!`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a passionate Frontend and Mobile App Developer with expertise in React, Next.js, and React Native. I specialize in creating dynamic, responsive web and mobile applications that provide seamless user experiences across all platforms.
+
+With a strong foundation in JavaScript/TypeScript and a keen eye for design, I am dedicated to building high-quality, efficient, and visually appealing interfaces. Whether it’s a web dashboard or a cross-platform mobile app, I focus on delivering performance and polish. Let’s work together to bring your ideas to life!`;
 
 export const EXPERIENCES = [
   {
@@ -31,6 +33,7 @@ export const PROJECTS = [
     description:
       "A modern e-commerce store with a product catalog, shopping cart, checkout workflow, and secure authentication.",
     technologies: ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB"],
+    link:"https://kushalwears.kharel-kushal57.workers.dev/",
   },
   {
     title: "Netflix Clone",
@@ -38,6 +41,7 @@ export const PROJECTS = [
     description:
       "A streaming UI clone featuring movie browsing, responsive media cards, and a polished playback interface.",
     technologies: ["React", "JavaScript", "CSS", "TMDB API", "Firebase"],
+    link:"https://netflix-clone.kharel-kushal57.workers.dev/",
   },
   {
     title: "Tic Tac Toe Game",
@@ -45,6 +49,7 @@ export const PROJECTS = [
     description:
       "A classic Tic Tac Toe game with interactive player turns, win detection, and responsive gameplay.",
     technologies: ["React", "JavaScript", "CSS"],
+    link:"https://tic-tac-toe-game.kharel-kushal57.workers.dev/",
   },
   {
     title: "Chat App",
@@ -52,6 +57,7 @@ export const PROJECTS = [
     description:
       "A real-time chat application that supports instant messaging, multiple conversations, and a clean interface.",
     technologies: ["React", "JavaScript"],
+    link:"https://chatapp.kharel-kushal57.workers.dev/",
   },
 ];
 
