@@ -15,14 +15,14 @@ export const EXPERIENCES = [
     role: "Frontend Developer",
     company: "Multiplai Technologies",
     description: `Designed and developed user interfaces for web applications using React.js and Next.js, ensuring responsive design and optimal performance. Collaborated with backend developers to integrate APIs and enhance application functionality. Implemented best practices for code quality, maintainability, and scalability.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    technologies: ["Javascript", "React.js", "Next.js", "mongoDB","TypeScript","Tailwind CSS"],
   },
   {
     year: "2025 - Present",
     role: "React Native Developer",
     company: "Multiplai Technologies",
     description: `Designed and developed mobile applications using React Native, ensuring cross-platform compatibility and optimal performance. Worked closely with UI/UX designers to create intuitive user interfaces and enhance user experience. Integrated third-party APIs and services to extend application functionality.`,
-    technologies: ["React Native", "JavaScript", "Node.js", "mongoDB"],
+    technologies: ["React Native", "JavaScript", "Node.js", "TypeScript","NativeWind CSS"],
   },
 ];
 
